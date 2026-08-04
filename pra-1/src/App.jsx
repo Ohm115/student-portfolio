@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="container">
       <Header
-        name="Bhargav Rathod"
+        name="Ohm Bhatia"
         college="Computer Science Engineering | CSPIT - CHARUSAT"
       />
 
@@ -27,7 +27,7 @@ function App() {
 
       <Skills skillList={skills} />
 
-      <Footer email="bhargavrathodsvkd@gmail.com" />
+      <Footer email="ohmbhatia@gmail.com" />
     </div>
   );
 }
