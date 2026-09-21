@@ -12,3 +12,7 @@ dist/
 
 # OS files
 .DS_Store
+
+# Word documents and local screenshots
+*.docx
+screenshots/
