@@ -16,6 +16,7 @@ Welcome to the **AWDF Practicals Portfolio** repository! This repository contain
 | [`pra-6`](./pra-6) | **Full Stack Task Manager (MERN)** <br> Complete full-stack Task Manager connecting React frontend to Express + MongoDB backend. | React, Vite, Express, MongoDB |
 | [`pra-7`](./pra-7) | **JWT Authentication & Server-Side Validation API** <br> REST API with User Authentication (`bcrypt` password hashing, JWT tokens) and protected task routes. | Node.js, Express, JWT, bcryptjs, Mongoose |
 | [`pra-8`](./pra-8) | **React Performance Optimization & Lazy Loading** <br> Full-stack app optimized using route-based code splitting with `React.lazy()` and `Suspense`. | React, Vite, React Router, Express, MongoDB |
+| [`pra-9`](./pra-9) | **Server-Side In-Memory Caching with NodeCache** <br> High-performance full-stack app featuring API response caching (`node-cache`), TTL expiry, and cache invalidation. | React, Vite, Express, node-cache, MongoDB |
 
 ---
 
@@ -24,6 +25,7 @@ Welcome to the **AWDF Practicals Portfolio** repository! This repository contain
 - **Frontend**: React 19, Vite, React Router DOM, HTML5, CSS3
 - **Backend**: Node.js, Express 5
 - **Database**: MongoDB & Mongoose ORM
+- **Caching**: In-Memory Server Caching (`node-cache`)
 - **Security & Authentication**: JSON Web Tokens (`jsonwebtoken`), Password Hashing (`bcryptjs`)
 - **Optimization**: Code splitting (`React.lazy`), Suspense loading, Vite bundling
 
