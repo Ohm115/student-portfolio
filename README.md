@@ -19,6 +19,7 @@ Welcome to the **AWDF Practicals Portfolio** repository! This repository contain
 | [`pra-9`](./pra-9) | **Server-Side In-Memory Caching with NodeCache** <br> High-performance full-stack app featuring API response caching (`node-cache`), TTL expiry, and cache invalidation. | React, Vite, Express, node-cache, MongoDB |
 | [`pra-10`](./pra-10) | **Asynchronous Event-Driven Architecture with EventEmitter** <br> Non-blocking event-driven full-stack app utilizing Node.js `EventEmitter` and `setImmediate()` for asynchronous task notifications. | React, Vite, Express, EventEmitter, MongoDB |
 | [`pra-11`](./pra-11) | **Docker Containerization & Multi-Container Orchestration** <br> Containerized full-stack MERN application using Docker multi-stage builds and Docker Compose for frontend, backend, and MongoDB. | Docker, Docker Compose, Nginx, Node.js, React, MongoDB |
+| [`pra-12`](./pra-12) | **CI/CD Pipeline Using GitHub Actions** <br> Automated testing and building pipeline using GitHub Actions workflow, automated unit tests (`node:test`), and frontend bundling. | GitHub Actions, Node.js, React, Vite, Mongoose |
 
 ---
 
@@ -28,6 +29,7 @@ Welcome to the **AWDF Practicals Portfolio** repository! This repository contain
 - **Backend**: Node.js, Express 5
 - **Database**: MongoDB & Mongoose ORM
 - **Containerization & Orchestration**: Docker, Docker Compose, Nginx Alpine, Multi-Stage Builds
+- **CI/CD & Automation**: GitHub Actions (`actions/checkout`, `actions/setup-node`), Automated Unit Testing (`node:test`, `node:assert`)
 - **Caching**: In-Memory Server Caching (`node-cache`)
 - **Event-Driven Architecture**: Node.js `EventEmitter`, `setImmediate()` non-blocking pub/sub
 - **Security & Authentication**: JSON Web Tokens (`jsonwebtoken`), Password Hashing (`bcryptjs`)
@@ -50,7 +52,7 @@ Each practical folder is self-contained. To run any individual practical:
    npm run dev   # or npm start
    ```
 
-3. For Full-Stack Projects (`pra-6`, `pra-8`, `pra-9`, `pra-10`, `pra-11`):
+3. For Full-Stack Projects (`pra-6`, `pra-8`, `pra-9`, `pra-10`, `pra-11`, `pra-12`):
    - **Backend**:
      ```bash
      cd backend
