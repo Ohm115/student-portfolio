@@ -18,6 +18,7 @@ Welcome to the **AWDF Practicals Portfolio** repository! This repository contain
 | [`pra-8`](./pra-8) | **React Performance Optimization & Lazy Loading** <br> Full-stack app optimized using route-based code splitting with `React.lazy()` and `Suspense`. | React, Vite, React Router, Express, MongoDB |
 | [`pra-9`](./pra-9) | **Server-Side In-Memory Caching with NodeCache** <br> High-performance full-stack app featuring API response caching (`node-cache`), TTL expiry, and cache invalidation. | React, Vite, Express, node-cache, MongoDB |
 | [`pra-10`](./pra-10) | **Asynchronous Event-Driven Architecture with EventEmitter** <br> Non-blocking event-driven full-stack app utilizing Node.js `EventEmitter` and `setImmediate()` for asynchronous task notifications. | React, Vite, Express, EventEmitter, MongoDB |
+| [`pra-11`](./pra-11) | **Docker Containerization & Multi-Container Orchestration** <br> Containerized full-stack MERN application using Docker multi-stage builds and Docker Compose for frontend, backend, and MongoDB. | Docker, Docker Compose, Nginx, Node.js, React, MongoDB |
 
 ---
 
@@ -26,6 +27,7 @@ Welcome to the **AWDF Practicals Portfolio** repository! This repository contain
 - **Frontend**: React 19, Vite, React Router DOM, HTML5, CSS3
 - **Backend**: Node.js, Express 5
 - **Database**: MongoDB & Mongoose ORM
+- **Containerization & Orchestration**: Docker, Docker Compose, Nginx Alpine, Multi-Stage Builds
 - **Caching**: In-Memory Server Caching (`node-cache`)
 - **Event-Driven Architecture**: Node.js `EventEmitter`, `setImmediate()` non-blocking pub/sub
 - **Security & Authentication**: JSON Web Tokens (`jsonwebtoken`), Password Hashing (`bcryptjs`)
@@ -48,7 +50,7 @@ Each practical folder is self-contained. To run any individual practical:
    npm run dev   # or npm start
    ```
 
-3. For Full-Stack Projects (`pra-6`, `pra-8`, `pra-9`, `pra-10`):
+3. For Full-Stack Projects (`pra-6`, `pra-8`, `pra-9`, `pra-10`, `pra-11`):
    - **Backend**:
      ```bash
      cd backend
@@ -61,6 +63,12 @@ Each practical folder is self-contained. To run any individual practical:
      npm install
      npm run dev
      ```
+
+4. For Dockerized Deployment (`pra-11`):
+   ```bash
+   cd pra-11
+   docker compose up --build
+   ```
 
 ---
 
